@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/15/26||20:40:35" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="body_assembled" uid="body_assembled" version="291">
+<AssemblyFile name="body_assembled.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="carbon_fiber_1-1" uid="carbon_fiber_1-1" entityUid="carbon_fiber_1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.087945379211316232 -0.99612529848176135 0 0.99612529848176135 0.087945379211316232</Rotation>
+<Translation>1.2829983675740333 0.69348059559484065 0.89373249585522296</Translation>
+</Transform>
+</Instance>
+<Instance name="carbon_fiber_0-1" uid="carbon_fiber_0-1" entityUid="carbon_fiber_0*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.34496756857802868 -0.93861460495208748 0 0.93861460495208748 -0.34496756857802868</Rotation>
+<Translation>1.3149983675740333 0.69327049167018773 0.89531405754021076</Translation>
+</Transform>
+</Instance>
+<Instance name="hinge_body-1" uid="hinge_body-1" grounded="true" entityUid="hinge_body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.2989983675740333 0.67468845708668268 0.8904004849966396</Translation>
+</Transform>
+</Instance>
+<Instance name="hinge_rotor-1" uid="hinge_rotor-1" entityUid="hinge_rotor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.2989983675740329 0.67468845708667868 0.89040048499662783</Translation>
+</Transform>
+</Instance>
+<Instance name="hinge_lid-1" uid="hinge_lid-1" entityUid="hinge_lid*:*Default">
+<Transform>
+<Rotation>0.9915027735569788 0.13008554888540969 -3.0916919581355718e-16 -0.13008554888540966 0.9915027735569788 0 3.0583265117564064e-16 0 0.99999999999999989</Rotation>
+<Translation>1.2970271822814103 0.67481721549171647 0.89040048499663937</Translation>
+</Transform>
+</Instance>
+<Instance name="grasper_bottom-1" uid="grasper_bottom-1" entityUid="grasper_bottom">
+<Transform>
+<Rotation>1.780373968371014e-16 -0.99984769515639105 -0.017452406437295075 1 1.8727446122189332e-16 -5.2763735536122347e-16 5.3082538364890287e-16 -0.017452406437295075 0.99984769515639105</Rotation>
+<Translation>2.1205532369583402 -0.58696209597845972 0.045066721057395114</Translation>
+</Transform>
+<Instance name="balsa_dowel_square-1" uid="balsa_dowel_square-1" entityUid="balsa_dowel_square*:*Default">
+<Transform>
+<Rotation>-0.46286251171609027 0.88643008480526697 -5.7735934089198082e-15 0.88629507720983014 0.46279201551363092 0.017452406437291079 0.015470338118266588 0.0080780646790494931 -0.99984769515639116</Rotation>
+<Translation>1.343285801508141 0.74111280718074979 0.8749295237478899</Translation>
+</Transform>
+</Instance>
+<Instance name="dowel_carbon_hinge_square-1" uid="dowel_carbon_hinge_square-1" entityUid="dowel_carbon_hinge_square*:*Default">
+<Transform>
+<Rotation>-0.88643008480526009 5.5355026118419914e-15 -0.46286251171610288 -0.46279201551364357 -0.017452406437290718 0.88629507720982359 -0.008078064679049755 0.99984769515639138 0.015470338118266036</Rotation>
+<Translation>1.2768035451477555 0.70645576323656623 0.8713241258114921</Translation>
+</Transform>
+</Instance>
+<Instance name="dowel_dowel_hinge_square-1" uid="dowel_dowel_hinge_square-1" entityUid="dowel_dowel_hinge_square*:*Default">
+<Transform>
+<Rotation>-0.88643008480526653 -5.8143594106052632e-15 0.46286251171609077 -0.46279201551363147 0.017452406437291183 -0.88629507720982981 -0.0080780646790495139 -0.99984769515639116 -0.01547033811826669</Rotation>
+<Translation>1.3406265112537294 0.73967207391489742 0.87790483263932173</Translation>
+</Transform>
+</Instance>
+<Instance name="balsa_dowel_square-3" uid="balsa_dowel_square-3" entityUid="balsa_dowel_square*:*Default">
+<Transform>
+<Rotation>0.53623971626211298 -0.84406573600823809 5.6220219452063347e-15 0.84393718070831969 0.53615804435599079 -0.017452406437290888 0.014730978284603832 0.0093586734760286866 0.99984769515639116</Rotation>
+<Translation>1.4590970892466149 0.73620287664275574 0.8748438205915553</Translation>
+</Transform>
+</Instance>
+<Instance name="balsa_dowel_square-2" uid="balsa_dowel_square-2" entityUid="balsa_dowel_square*:*Default">
+<Transform>
+<Rotation>-0.46286251171610249 0.8864300848052602 -5.7367305350553011e-15 0.8862950772098237 0.46279201551364324 0.017452406437291065 0.015470338118266444 0.0080780646790497342 -0.99984769515639116</Rotation>
+<Translation>1.2794628354021667 0.7077917820637778 0.8743479030909983</Translation>
+</Transform>
+</Instance>
+<Instance name="grasper_mount-1" uid="grasper_mount-1" grounded="true" entityUid="grasper_mount*:*Default">
+<Transform>
+<Rotation>1 5.3293053587361845e-16 0 0 -0.017452406437290638 -0.99984769515639116 -5.325768920792663e-16 0.99984769515639116 -0.017452406437290638</Rotation>
+<Translation>1.276803545150047 0.70662810575013202 0.86145062982185305</Translation>
+</Transform>
+</Instance>
+<Instance name="grasper_bend_square-1" uid="grasper_bend_square-1" entityUid="grasper_bend_square*:*Default">
+<Transform>
+<Rotation>-0.84406573600823898 -0.53623971626211164 5.7367305350553011e-15 0.53615804435598924 -0.84393718070832058 -0.017452406437290933 0.0093586734760287785 -0.014730978284603818 0.99984769515639116</Rotation>
+<Translation>1.4110496935023202 0.76672300871266708 0.87537655147845406</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="carbon_fiber_2-1" uid="carbon_fiber_2-1" entityUid="carbon_fiber_2*:*Default">
+<Transform>
+<Rotation>-0.25833848999861103 6.3837823915946156e-16 0.96605446253575056 -4.4843184776758585e-15 1 -1.7564250313374292e-15 -0.96605446253575022 -4.7898702826248138e-15 -0.25833848999861092</Rotation>
+<Translation>1.2974011879172778 0.8503414491715916 0.8924808983847704</Translation>
+</Transform>
+</Instance>
+<Instance name="carbon_fiber_3-1" uid="carbon_fiber_3-1" entityUid="carbon_fiber_3*:*Default">
+<Transform>
+<Rotation>0.96815238331670539 0 0.25036166375502228 -1.7052833822410721e-15 1 7.0452476825339651e-15 -0.250361663755022 -7.2648756788429823e-15 0.9681523833167055</Rotation>
+<Translation>1.2985844441652727 0.52934144917159165 0.89045313872108534</Translation>
+</Transform>
+</Instance>
+<Instance name="hinge_pin-1" uid="hinge_pin-1" entityUid="hinge_pin*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.2989983675740369 0.67468845708667857 0.89040048499662205</Translation>
+</Transform>
+</Instance>
+<Instance name="hinge_pad-1" uid="hinge_pad-1" entityUid="hinge_pad*:*Default">
+<Transform>
+<Rotation>0.99953242862622682 -0.030576528981512911 0 0.030576528981512911 0.99953242862622682 2.6138173723718003e-15 -1.0382571963280311e-16 -2.6118639750733568e-15 1</Rotation>
+<Translation>1.2994616934756733 0.67469554219200845 0.88990048499663976</Translation>
+</Transform>
+</Instance>
+<Instance name="grasper_top-1" uid="grasper_top-1" entityUid="grasper_top">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022008739482446377 0.070468642796291669 0.036130107486522983</Translation>
+</Transform>
+<Instance name="dowel_carbon_hinge_square-1" uid="dowel_carbon_hinge_square-1" entityUid="dowel_carbon_hinge_square*:*Default">
+<Transform>
+<Rotation>-0.92602637717279002 4.4290991517824544e-15 -0.37745880408362165 0.3774588040836217 -5.3647844461713144e-15 -0.92602637717278991 -6.126447762882424e-15 -0.99999999999999989 3.2961294360013661e-15</Rotation>
+<Translation>1.276989628091791 0.71037280637494282 0.87779867938767975</Translation>
+</Transform>
+</Instance>
+<Instance name="balsa_dowel_square-2" uid="balsa_dowel_square-2" entityUid="balsa_dowel_square*:*Default">
+<Transform>
+<Rotation>0.37745880408363464 -0.92602637717278458 -4.3704577409550534e-15 0.92602637717278458 0.37745880408363464 5.5086504591861953e-15 -3.4514878756324314e-15 -6.126447762882547e-15 1</Rotation>
+<Translation>1.4075593472731542 0.65715111499915158 0.87479867938768074</Translation>
+</Transform>
+</Instance>
+<Instance name="balsa_dowel_square-1" uid="balsa_dowel_square-1" entityUid="balsa_dowel_square*:*Default">
+<Transform>
+<Rotation>0.3774588040836217 -0.92602637717278991 -4.4290991519914449e-15 0.92602637717278991 0.3774588040836217 5.3647844456587994e-15 -3.2961294354478796e-15 -6.1264477628825013e-15 0.99999999999999989</Rotation>
+<Translation>1.3408854481167134 0.68432814889317317 0.87479867938768019</Translation>
+</Transform>
+</Instance>
+<Instance name="dowel_dowel_hinge_square-1" uid="dowel_dowel_hinge_square-1" entityUid="dowel_dowel_hinge_square*:*Default">
+<Transform>
+<Rotation>0.92602637717278991 -4.4290991518253179e-15 -0.3774588040836217 -0.3774588040836217 5.364784446066366e-15 -0.92602637717278991 6.1264477628825021e-15 1 3.2961294358880013e-15</Rotation>
+<Translation>1.343663527248232 0.68319577248092211 0.87179867938768041</Translation>
+</Transform>
+</Instance>
+<Instance name="grasper_mount-1" uid="grasper_mount-1" grounded="true" entityUid="grasper_mount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>1.2769896280915904 0.71037280637528233 0.85592367938767955</Translation>
+</Transform>
+</Instance>
+<Instance name="grasper_bend_square-1" uid="grasper_bend_square-1" entityUid="grasper_bend_square*:*Default">
+<Transform>
+<Rotation>-0.78990210180491238 -0.61323296516428583 4.4368537559736204e-15 -0.61323296516428583 0.78990210180491238 -5.5357142243689351e-15 -1.0999765913270565e-16 -7.0934972855963744e-15 -1</Rotation>
+<Translation>1.4163137948162232 0.66293476314336131 0.87479867938768063</Translation>
+</Transform>
+</Instance>
+<Instance name="balsa_dowel_square-3" uid="balsa_dowel_square-3" entityUid="balsa_dowel_square*:*Default">
+<Transform>
+<Rotation>0.61323296516428571 -0.78990210180491216 4.2335814526698778e-15 -0.78990210180491216 -0.61323296516428571 -5.2879858954457002e-15 6.7731628806125632e-15 -1.013476172151419e-16 -0.99999999999999978</Rotation>
+<Translation>1.461277992823075 0.69784228954058292 0.87479867938768063</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0088466981224193386</Position>
+<Axis>0 -2.73392419813945e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0035966981224193617</Position>
+<Axis>0 2.6433881538694208e-15 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>-0.03499999999999992 0.015152992084908945 0.003653301877580617</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_0-1</Uid>
+</InstancePath>
+<Position>0 0 0.003653301877580617</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0078466981224193377</Position>
+<Axis>0 2.7031517121308204e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>carbon_fiber_0-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999998916 0.003653301877580617</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>-0.03499999999999992 0.015152992084908945 0.003653301877580617</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_1-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.003653301877580617</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 0.041152992084908968 0.0016533018775807262</Position>
+<Axis>0 1 2.552045113696649e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.0016533018775806152</Position>
+<Axis>0 1 2.548825806568986e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0078466981224193377</Position>
+<Axis>0 2.7031517121308204e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>carbon_fiber_1-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000001137 0.003653301877580617</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 0.041152992084908968 0.0016533018775807262</Position>
+<Axis>0 1 2.552045113696649e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_2-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.0016533018775806152</Position>
+<Axis>1.4766472406611614e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0035966981224193617</Position>
+<Axis>0 2.6433881538694208e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>carbon_fiber_2-1</Uid>
+</InstancePath>
+<Position>0 -0.15699999999999992 0.0016533018775806152</Position>
+<Axis>1.4766472406611614e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0035966981224193617</Position>
+<Axis>0 2.6433881538694208e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>carbon_fiber_3-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 0.15699999999999992 0.0016533018775810593</Position>
+<Axis>0 1 2.548825806568986e-15</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0078466981224193377</Position>
+<Axis>0 2.7031517121308204e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_lid-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0078466981224193377</Position>
+<Axis>0 2.7031517121308204e-15 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 0.011153301877580568</Position>
+<Axis>0 2.73392419813945e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_lid-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084909056 0.011153301877580568</Position>
+<Axis>0 -2.7339241981394503e-15 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0035966981224194727</Position>
+<Axis>-7.7715611723760958e-16 5.3290705182007514e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 -0.010847007915090967 0.0016533018775805042</Position>
+<Axis>0 1 2.552045113696649e-15</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0088466981224193386</Position>
+<Axis>0 -2.73392419813945e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_pad-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908834 -0.0063466981224192809</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0068466981224193368</Position>
+<Axis>0 -4.1633363423443299e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_pad-1</Uid>
+</InstancePath>
+<Position>0.0040000000000000036 0.015152992084908834 -0.0063466981224192809</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0035966981224193617</Position>
+<Axis>0 2.6433881538694208e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_pin-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 -0.0036466981224193562</Position>
+<Axis>4.4290991518253203e-15 -2.6308602479269125e-15 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 -0.010847007915090967 0.0016533018775805042</Position>
+<Axis>0 1 2.552045113696649e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>hinge_pin-1</Uid>
+</InstancePath>
+<Position>0.004108695652173866 0.015152992084908945 0.0049215001637632483</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 -0.010847007915090967 0.0016533018775805042</Position>
+<Axis>0 1 2.552045113696649e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_pin-1</Uid>
+</InstancePath>
+<Position>0 -0.0098470079150909662 0.0016533018775805042</Position>
+<Axis>1.057355261547892e-16 1 2.5496839116419601e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_0-1</Uid>
+</InstancePath>
+<Position>0 0 0.003653301877580617</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_bottom-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999998934</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_pin-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 0.015153301877580572</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bottom-1</Uid>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0.012000000000000011 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_0-1</Uid>
+</InstancePath>
+<Position>0 0 0.003653301877580617</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_bottom-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999998934</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_2-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.0016533018775806152</Position>
+<Axis>1.4766472406611614e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_top-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_pin-1</Uid>
+</InstancePath>
+<Position>0 0.015152992084908945 0.015153301877580572</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_top-1</Uid>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_bottom-1</Uid>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_top-1</Uid>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_2-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.0016533018775806152</Position>
+<Axis>1.4766472406611614e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_top-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_2-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.0016533018775806152</Position>
+<Axis>1.4766472406611614e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_top-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Tangent name="Tangent15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>-0.0052499999999999769 0.030267141085100757 0.0069033018775804811</Position>
+<Axis>1 -6.2184034051628471e-16 7.7715611723761293e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 -0.010847007915090967 0.0016533018775805042</Position>
+<Axis>0 1 2.552045113696649e-15</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bottom-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0049999999999998934</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_body-1</Uid>
+</InstancePath>
+<Position>0.03499999999999992 0.015152992084908945 0.003653301877580617</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_top-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hinge_rotor-1</Uid>
+</InstancePath>
+<Position>0 0.041152992084908968 0.0016533018775807262</Position>
+<Axis>0 1 2.552045113696649e-15</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>carbon_fiber_0-1</Uid>
+</InstancePath>
+<Position>0 0 0.003653301877580617</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_bottom-1</Uid>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999998934</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="grasper_bottom" uid="grasper_bottom" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="grasper_bottom.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0 2.2204460492503131e-16</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0.0030000000000002247 0 0</Position>
+<Axis>1.0000000000000002 0 1.3964822984243678e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0 0.066000000000000059 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>0.0015999999999998238 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0013999999999998458 -0.0015999999999998238</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0045999999999999375 0.0016000000000000458</Position>
+<Axis>0 -1.0000000000000002 2.7103699059422004e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0.0030000000000001137 0.0046000000000000485 0.0016000000000000458</Position>
+<Axis>0 -1.0000000000000002 2.7103699059422004e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>-0.0015999999999998238 0.065999999999999948 0.0016000000000000458</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0.0030000000000001137 0.0013999999999999568 -0.0015999999999998238</Position>
+<Axis>-1.3965876693230062e-14 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0.0016000000000002679 0.065999999999999948 0.0015999999999999348</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0029999999999998916 0.0045999999999999375 -0.0016000000000002679</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>-0.0015999999999998238 0.065999999999999948 -0.0016000000000000458</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0029999999999998916 0.0014000000000000679 0.0015999999999998238</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0.0016000000000002679 0.065999999999999948 0.0015999999999999348</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0.0098749999999999671 1.1102230246251565e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0.012000000000000122 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0.0098749999999999671 1.1102230246251565e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000059 -0.0016000000000000458</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.0090762395692964848 0.0016000000000000458 -0.0015999999999999348</Position>
+<Axis>0 2.0643209364124004e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000059 -0.0016000000000000458</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.010827572409168207 -0.0017666025403784702 0.0016000000000000458</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>0.0015999999999998238 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.010827572409168207 -0.0017666025403784702 0.0016000000000000458</Position>
+<Axis>-0.86602540378443982 0.49999999999999822 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>balsa_dowel_square-3</Uid>
+</InstancePath>
+<Position>-0.0015999999999999348 0.066000000000000059 -0.0015999999999999348</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.0090762395692964848 0.0016000000000000458 -0.0015999999999999348</Position>
+<Axis>0 2.0643209364124004e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-3</Uid>
+</InstancePath>
+<Position>-0.0015999999999999626 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>-1 -1.9247299067048917e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0 0.0016000000000000181 0.0016000000000000458</Position>
+<Axis>3.0100162813628817e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-3</Uid>
+</InstancePath>
+<Position>-0.0015999999999999626 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0 -0.0016000000000000458 0.0016000000000001569</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="grasper_top" uid="grasper_top" version="165">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="grasper_top.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>0 0.066000000000000059 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>0.0016000000000000458 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0013999999999999568 -0.0016000000000000458</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000059 -0.0016000000000000458</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0046000000000000485 -0.0016000000000000458</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0 -2.2204460492503131e-16</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0 2.2204460492503131e-16</Position>
+<Axis>1.0000000000000002 0 1.396592666817395e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0 0.066000000000000059 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>0.0016000000000000458 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0013999999999999568 -0.0015999999999998238</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-1</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.0046000000000000485 0.0015999999999998238</Position>
+<Axis>0 -1 2.7105054312137606e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.0046000000000000485 0.0016000000000002679</Position>
+<Axis>0 -1 2.7105054312137606e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_dowel_hinge_square-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000027 0.0013999999999999568 -0.0015999999999998238</Position>
+<Axis>-1.396592666817395e-14 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0.0016000000000000458 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0.012000000000000011 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0.0098749999999999671 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>dowel_carbon_hinge_square-1</Uid>
+</InstancePath>
+<Position>0 0.012000000000000011 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grasper_mount-1</Uid>
+</InstancePath>
+<Position>0 0.0098749999999999671 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.0090762395692964848 0.0015999999999998238 -0.0016000000000000458</Position>
+<Axis>0 2.0328790734103203e-16 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>balsa_dowel_square-3</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000281 -0.0016000000000000458</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0 0.0016000000000000458 0.0016000000000000458</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-3</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000281 0.0015999999999999348</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0 -0.0016000000000000458 0.0016000000000000458</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-3</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000281 0.0015999999999999348</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0.0016000000000000458 0 0.0016000000000000458</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.0090762395692964848 0.0015999999999998238 -0.0016000000000000458</Position>
+<Axis>0 2.0328790734103203e-16 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>-0.0016000000000000458 0.066000000000000059 -0.0016000000000000458</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.010827572409168318 -0.0017666025403784147 0.0016000000000000458</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>balsa_dowel_square-2</Uid>
+</InstancePath>
+<Position>0.0016000000000000458 0.066000000000000059 0.0016000000000000458</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grasper_bend_square-1</Uid>
+</InstancePath>
+<Position>0.0080562911170579676 -0.00016660254037836886 0.0016000000000000458</Position>
+<Axis>0.86602540378443993 -0.49999999999999806 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="balsa_dowel_square" uid="balsa_dowel_square*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="balsa_dowel_square.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010812757334016002</Mass>
+<CenterOfMass>0 0.033000000000000002 0</CenterOfMass>
+<Inertia>3.9342577985061689e-08 1.8453772516720636e-10 3.9342577985061689e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="balsa_dowel_square_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="carbon_fiber_0" uid="carbon_fiber_0*:*Default" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="carbon_fiber_0.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0041381058433085189</Mass>
+<CenterOfMass>0.074000000000000205 0 0.0036533018775806404</CenterOfMass>
+<Inertia>2.6897687981505459e-08 7.5668713766432392e-06 7.5668713766432392e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="carbon_fiber_0_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="carbon_fiber_1" uid="carbon_fiber_1*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="carbon_fiber_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0041381058433084617</Mass>
+<CenterOfMass>-0.074000000000000191 0 0.00365330187758064</CenterOfMass>
+<Inertia>2.6897687981505231e-08 7.5668713766431316e-06 7.5668713766431316e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="carbon_fiber_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="carbon_fiber_2" uid="carbon_fiber_2*:*Default" version="160">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="carbon_fiber_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0043897474148609662</Mass>
+<CenterOfMass>0 -0.078499999999999778 0.0016533018775805794</CenterOfMass>
+<Inertia>9.0311736815073056e-06 2.8533358196596165e-08 9.0311736815073056e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="carbon_fiber_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="carbon_fiber_3" uid="carbon_fiber_3*:*Default" version="163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="carbon_fiber_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.004389747414861065</Mass>
+<CenterOfMass>0 0.078499999999999751 0.0016533018775807737</CenterOfMass>
+<Inertia>9.0311736815074987e-06 2.8533358196597062e-08 9.0311736815074987e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="carbon_fiber_3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="dowel_carbon_hinge_square" uid="dowel_carbon_hinge_square*:*Default" version="273">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="dowel_carbon_hinge_square.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00058632864106884775</Mass>
+<CenterOfMass>-0.003577429942820105 0.0045825202312322509 0</CenterOfMass>
+<Inertia>7.9091201054705872e-09 1.3718329567170798e-08 1.7910919944308049e-08 0 0 -3.3220852416740634e-09</Inertia>
+</MassProperties>
+<GeometryFile name="dowel_carbon_hinge_square_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="dowel_dowel_hinge_square" uid="dowel_dowel_hinge_square*:*Default" version="330">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="dowel_dowel_hinge_square.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00055689690200129427</Mass>
+<CenterOfMass>0 0.0036838760453362352 0</CenterOfMass>
+<Inertia>3.4378898941776758e-09 3.0925300986206949e-08 3.0131062263932793e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="dowel_dowel_hinge_square_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grasper_bend_square" uid="grasper_bend_square*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grasper_bend_square.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00051090548505157961</Mass>
+<CenterOfMass>0.0088612994126983473 0.0019723210148065548 -4.086579462632081e-10</CenterOfMass>
+<Inertia>7.566634554301092e-09 1.2661802153716906e-08 1.6329686161232186e-08 -1.080315635138381e-15 0 -4.4125357694471093e-09</Inertia>
+</MassProperties>
+<GeometryFile name="grasper_bend_square_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grasper_mount" uid="grasper_mount*:*Default" version="228">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grasper_mount.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00035652177564477491</Mass>
+<CenterOfMass>3.0524206490903754e-09 0.0035258674309402165 3.5135074988728955e-11</CenterOfMass>
+<Inertia>6.3162597721343053e-09 3.9571673179258375e-09 6.1750343649824495e-09 0 -1.5757910889703313e-13 1.1358468205853568e-15</Inertia>
+</MassProperties>
+<GeometryFile name="grasper_mount_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hinge_body" uid="hinge_body*:*Default" version="313">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hinge_body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012554761065861047</Mass>
+<CenterOfMass>1.0736934931171741e-06 0.015153467138748938 -0.0011059596910676262</CenterOfMass>
+<Inertia>1.8668275851876556e-06 4.4422086346463304e-06 4.7373016893943904e-06 -3.3008478581009353e-11 3.2289964431079196e-09 4.1169068276189814e-09</Inertia>
+</MassProperties>
+<GeometryFile name="hinge_body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hinge_lid" uid="hinge_lid*:*Default" version="522">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hinge_lid.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061538725834274707</Mass>
+<CenterOfMass>0.00013473635587542276 0.015017735211742692 0.012349619915925708</CenterOfMass>
+<Inertia>6.8682223333402607e-07 7.5195269718382944e-07 1.3796940475712915e-06 -4.0192372925226651e-09 4.6934052936588411e-10 -2.0894834441523703e-10</Inertia>
+</MassProperties>
+<GeometryFile name="hinge_lid_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hinge_pad" uid="hinge_pad*:*Default" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hinge_pad.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00014624067298672774</Mass>
+<CenterOfMass>0 0.015152992084908877 -0.0053036618237334264</CenterOfMass>
+<Inertia>9.5374016663152346e-10 9.5374016663152346e-10 1.8136729194411156e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="hinge_pad_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hinge_pin" uid="hinge_pin*:*Default" version="229">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hinge_pin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010844133094448181</Mass>
+<CenterOfMass>1.9812011114556477e-08 0.015154013611505073 0.0073280819614297442</CenterOfMass>
+<Inertia>3.4674886252391666e-08 3.5059670265581733e-08 1.1251458755969103e-08 -8.8594939502380286e-12 2.9082247527581478e-13 3.8701907049063703e-13</Inertia>
+</MassProperties>
+<GeometryFile name="hinge_pin_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hinge_rotor" uid="hinge_rotor*:*Default" version="178">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hinge_rotor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0031927206354730149</Mass>
+<CenterOfMass>4.757891544064006e-08 0.01515374318785918 0.0016345145645913874</CenterOfMass>
+<Inertia>7.8567753588070673e-07 6.1198875699731642e-08 7.8833684606243752e-07 -3.0084026922554944e-12 -5.2500041147433978e-12 5.8763562330858145e-13</Inertia>
+</MassProperties>
+<GeometryFile name="hinge_rotor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Diffuse r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Specular r="0.69803921568627447" g="0.69803921568627447" b="0.69803921568627447" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
